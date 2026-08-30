@@ -32,7 +32,7 @@ pytest tests/ -v
 
 | Task | Status | Notes |
 |------|--------|-------|
-| A — Bug Fixing & Debugging | ✅ Complete | Recreated realistic buggy code covering all 4 issues: missing `await`, race condition, SQL injection, wrong status code. See `task_a_buggy.py` and `task_a_fixed.py` in root. |
+| A — Bug Fixing & Debugging | ✅ Complete | Since a specific snippet was not provided, I created a representative sample to demonstrate the fixes. This covers all 4 issues: missing `await`, race condition, SQL injection, and wrong status code. See `task_a_buggy.py` and `task_a_fixed.py` in the root directory. |
 | B — Payment Submission with Idempotency | ✅ Complete | `POST /payments/submit` with idempotency key, full validation, mock processor, SQLite persistence |
 | C — Webhook Receiver with Signature Validation | ✅ Complete | `POST /webhooks/payment-status`, HMAC-SHA256 validation, replay attack protection, async background update |
 | D — Clean Code, Structure & Tests | ✅ Complete | 14 pytest tests, typed codebase, DRY service layer |
